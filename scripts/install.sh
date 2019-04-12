@@ -57,7 +57,11 @@ fun_bar 'fun_attlist'
 sleep 1
 clear
 inst_pct () {
-apt-get install bc screen nano unzip dos2unix -y > /dev/null 2>&1
+apt-get install bc -y > /dev/null 2>&1
+apt-get install screen -y > /dev/null 2>&1
+apt-get install nano -y > /dev/null 2>&1
+apt-get install unzip -y > /dev/null 2>&1
+apt-get install dos2unix -y > /dev/null 2>&1
 apt-get install nload -y > /dev/null 2>&1
 apt-get install htop -y > /dev/null 2>&1
 apt-get install jq -y > /dev/null 2>&1
